@@ -1,13 +1,22 @@
 <template>
+  <MainHeader :title="title" :name="name" />
   <MainNav />
   <router-view />
 </template>
 
 <script>
+import MainHeader from "@/components/MainHeader/MainHeader.vue";
 import MainNav from "@/components/MainNav/MainNav.vue";
 export default {
   name: "CML-Portfolio",
+  data() {
+    return {
+      title: "C.M.L",
+      name: "Christian M. Lux",
+    };
+  },
   components: {
+    MainHeader,
     MainNav,
   },
 };
