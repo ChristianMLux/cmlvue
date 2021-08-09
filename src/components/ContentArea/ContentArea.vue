@@ -1,7 +1,7 @@
 <template>
-  <section>
-    <h2 class="section-heading">{{ sectionHeading }}</h2>
-    <p class="section-content">{{ sectionContent }}</p>
+  <section class="content-section">
+    <h2 class="content-heading">{{ contentHeading }}</h2>
+    <slot></slot>
   </section>
 </template>
 
@@ -9,9 +9,28 @@
 export default {
   name: "ContentArea",
   props: {
-    sectionHeading: {
+    contentHeading: {
       type: String,
+      default: "Section Heading",
     },
   },
 };
 </script>
+
+<style>
+section {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+section > p {
+  margin: 1rem;
+  padding-left: 1rem;
+  text-align: justify;
+}
+section > h2 {
+  text-align: left;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  border-left: 4px dotted var(--primary-color);
+}
+</style>

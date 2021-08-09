@@ -33,9 +33,6 @@ a {
   font-weight: bold;
 }
 * .router-link-exact-active {
-  border-left: 4px dotted var(--primary-color);
-}
-a::first-letter .router-link-exact-active {
-  color: var(--primary-color);
+  border-left: 3px dotted var(--primary-color);
 }
 </style>

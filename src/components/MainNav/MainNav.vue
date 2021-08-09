@@ -34,12 +34,12 @@ export default {
 
 <style scoped>
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 1rem 0;
+  padding: 1rem;
+  margin-left: 1rem;
   display: flex;
   flex-flow: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   list-style: none;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 </style>

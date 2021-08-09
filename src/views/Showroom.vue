@@ -1,5 +1,16 @@
 <template>
   <div class="showroom">
-    <h1>This is a showroom</h1>
+    <content-area :contentHeading="contentHeading">Blabla</content-area>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Showroom",
+  data() {
+    return {
+      contentHeading: "Showroom",
+    };
+  },
+};
+</script>

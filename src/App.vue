@@ -7,6 +7,7 @@
 <script>
 import MainHeader from "@/components/MainHeader/MainHeader.vue";
 import MainNav from "@/components/MainNav/MainNav.vue";
+
 export default {
   name: "CML-Portfolio",
   data() {
@@ -18,6 +19,12 @@ export default {
   components: {
     MainHeader,
     MainNav,
+  },
+  computed: {
+    changeTitle: function () {
+      let span = ".";
+      return this.title.replaceAll(".", span);
+    },
   },
 };
 </script>
@@ -37,10 +44,14 @@ body {
   --error: #ed3221;
   --warn: #ffc642;
   --bright: #f2f2f3;
-  --grey: #c8cdd0;
+  --grey: #e4e4e4;
   --dark-grey: #415058;
   --dark: #1f292e;
   background-color: var(--bright);
+}
+html {
+  max-width: 100ch;
+  margin: 0 auto;
 }
 
 #app {
@@ -55,5 +66,16 @@ body {
 
 .router-link-active {
   color: red;
+}
+
+@media screen and (max-width: 479px) {
+  #app {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 399px) {
+  #app {
+    font-size: 14px;
+  }
 }
 </style>

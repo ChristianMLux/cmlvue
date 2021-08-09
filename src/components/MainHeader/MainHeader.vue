@@ -29,9 +29,14 @@ export default {
 
 <style scoped>
 .header-wrapper {
+  margin: 0.5rem;
+  margin-left: 1.5rem;
   padding: 1rem;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+}
+h1 b {
+  color: var(--primary-color);
 }
 </style>

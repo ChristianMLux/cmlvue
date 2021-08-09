@@ -1,5 +1,20 @@
 <template>
   <div class="cv">
-    <h1>This is a cv page</h1>
+    <content-area :contentHeading="contentHeading">
+      <CurriculumVitae />
+    </content-area>
   </div>
 </template>
+<script>
+import CurriculumVitae from "@/components/CurriculumVitae/CurriculumVitae.vue";
+export default {
+  data() {
+    return {
+      contentHeading: "CV",
+    };
+  },
+  components: {
+    CurriculumVitae,
+  },
+};
+</script>
