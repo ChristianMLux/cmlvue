@@ -53,7 +53,13 @@ html {
   max-width: 100ch;
   margin: 0 auto;
 }
-
+h2 {
+  font-size: 1.2em;
+}
+h3 {
+  font-size: 0.9em;
+  font-weight: 550;
+}
 #app {
   @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
   font-size: 20px;

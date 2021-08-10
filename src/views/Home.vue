@@ -37,7 +37,12 @@ export default {
   data() {
     return {
       contentHeading: "Welcome! (W. I. P.)",
+      welcomeMsg:
+        "Hi there, i know we're living in modern times with vuetify, bootstrap and so on, but i wanted to show what i'm able to do without those frameworks. Hope you'll enjoy",
     };
+  },
+  created() {
+    console.log(this.welcomeMsg);
   },
 };
 </script>

@@ -1,7 +1,7 @@
 <template>
   <li>
     <div class="entry-heading">
-      <h4>{{ entryTitle }}</h4>
+      <h3>{{ entryTitle }}</h3>
       <p>{{ entryDate }} ({{ entryEmployer }})</p>
     </div>
     <div class="entry-content">

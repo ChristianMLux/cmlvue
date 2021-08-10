@@ -12,7 +12,7 @@ const CVENTRIES = [
     entryDate: "2016-2017",
     entryEmployer: "Sushi Circle Gastronomie GmbH",
     entryDescription:
-      "I was an employee selling sushi. The tasks included serving the customers, making the sushi and watching the stock. In addition, there was the preparation of order lists.",
+      "I was an employee selling sushi. The tasks included serving the customers, making the sushi and overwatching the inventory. In addition, there was the preparation of order lists.",
     entryType: "experience",
   },
   {
@@ -43,6 +43,36 @@ const CVENTRIES = [
     entryDescription:
       "Technician for Scanners and Printers. started the MCSE certifcat",
     entryType: "experience",
+  },
+  {
+    entryTitle: "Junior Web Developer",
+    entryDate: "2021",
+    entryEmployer: "Coding Bootcamps Europe",
+    entryDescription:
+      "In 2021, I participated in a 13-week programming bootcamp. There I was able to expand my existing knowledge of HTML and CSS by a significant amount. We were also taught the basics of JavaScript and learned how to use the Vue framework. I also got a comprehensive insight into version management with Git.",
+    entryType: "education",
+  },
+  {
+    entryTitle: "Technical assistant software development",
+    entryDate: "2015-2017",
+    entryEmployer: "it.schule Stuttgart",
+    entryDescription:
+      "education to a technical assitant focus software dev. wrote a thesis about procedural generated 3d environments",
+    entryType: "education",
+  },
+  {
+    entryTitle: "Business administration",
+    entryDate: "2013-2015",
+    entryEmployer: "Private Berufsfachschulen des int. Bundes e.V.",
+    entryDescription: "business administration education",
+    entryType: "education",
+  },
+  {
+    entryTitle: "Primary & Secondary School",
+    entryDate: "1996-2007",
+    entryEmployer: "FES & LUS - Stuttgart",
+    entryDescription: "basic school education",
+    entryType: "education",
   },
 ];
 

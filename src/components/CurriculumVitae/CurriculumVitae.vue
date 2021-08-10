@@ -6,19 +6,16 @@
 
 <script>
 import CVElement from "@/components/CurriculumVitae/CVElement.vue";
-import CVENTRIES from "@/components/CurriculumVitae/CVEntries";
+
 export default {
   name: "CurriculumVitae",
   components: {
     CVElement,
   },
-  data() {
-    return {
-      entries: [],
-    };
-  },
-  created() {
-    this.entries = [...CVENTRIES];
+  props: {
+    entries: {
+      type: Array,
+    },
   },
 };
 </script>
