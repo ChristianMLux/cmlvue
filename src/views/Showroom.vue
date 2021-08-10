@@ -97,6 +97,6 @@ img {
 }
 
 .img-slider {
-  margin: 0.5rem 0 0 1.4rem;
+  margin: 1.25rem 0 0 1.4rem;
 }
 </style>

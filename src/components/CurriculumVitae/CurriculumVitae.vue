@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import CVElement from "./CVElement.vue";
+import CVElement from "./CVElements.vue";
 
 export default {
   name: "CurriculumVitae",

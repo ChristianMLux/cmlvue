@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "CVElement",
+  name: "CVElements",
   props: {
     entryTitle: {
       type: String,
