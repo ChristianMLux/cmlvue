@@ -26,6 +26,7 @@
     "eslint-plugin-vue": "^7.2.0",
     "prettier": "^2.2.1",
     "sass": "^1.32.7",
-    "sass-loader": "^11.0.1"
+    "sass-loader": "^11.0.1",
+    "vueperslides": "^3.3.2"
   }
 }
