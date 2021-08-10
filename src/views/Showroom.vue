@@ -11,7 +11,7 @@
         could fill it with pictures. It was at this point that I had my first
         contact with Adobe Fireworks to create my first signature.
       </p>
-      <section>
+      <section class="img-slider">
         <vueper-slides>
           <vueper-slide
             v-for="(slide, i) in slides"
@@ -22,6 +22,14 @@
           />
         </vueper-slides>
       </section>
+      <p>
+        Around the end of 2005, I started playing MMORPGs. In these games there
+        are associations of players. In some games they are called clans, guilds
+        or alliances. In the time before Facebook, they needed forums to
+        organise themselves. I started designing layouts for these forums at
+        that time. Here is a small selection (roughly chronologically) from the
+        years 2005-2014)
+      </p>
     </content-area>
   </div>
 </template>
@@ -86,5 +94,9 @@ img {
   width: 80%;
   margin: 1rem 1rem 0 2rem;
   padding: 1rem 1rem 0.5rem 1.5rem;
+}
+
+.img-slider {
+  margin: 0.5rem 0 0 1.4rem;
 }
 </style>
