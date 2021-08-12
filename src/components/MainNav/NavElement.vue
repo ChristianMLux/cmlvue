@@ -44,6 +44,6 @@ a {
 
 a > div {
   margin-right: 0.5rem;
-  font-size: 2em;
+  font-size: 1.1em;
 }
 </style>

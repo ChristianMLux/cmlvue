@@ -2,7 +2,7 @@
   <div class="home">
     <content-area :contentHeading="contentHeading">
       <div class="p-wrapper">
-        <md-clipboard-icon />
+        <md-home-icon />
         <p>
           I am <b>looking for permanent employment</b>. This page is intended to
           give you as broad an insight as possible into my previous work, so

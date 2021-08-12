@@ -2,10 +2,12 @@ const ROUTES = [
   {
     routeTarget: "/",
     routeName: "Home",
+    routeIcon: "md-home-icon",
   },
   {
     routeTarget: "/profile",
     routeName: "Profile",
+    routeIcon: "md-person-icon",
   },
   {
     routeTarget: "/showroom",
@@ -15,10 +17,12 @@ const ROUTES = [
   {
     routeTarget: "/cv",
     routeName: "CV",
+    routeIcon: "md-document-icon",
   },
   {
     routeTarget: "/contact",
     routeName: "Contact",
+    routeIcon: "md-mail-open-icon",
   },
 ];
 
