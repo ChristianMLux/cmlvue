@@ -1,6 +1,8 @@
 <template>
   <li>
-    <router-link :to="routeTarget">{{ routeName }}</router-link>
+    <router-link :to="routeTarget">
+      {{ routeName }}
+    </router-link>
   </li>
 </template>
 
@@ -20,6 +22,10 @@ export default {
 };
 </script>
 <style scoped>
+ul > li {
+  display: flex;
+  flex-flow: row;
+}
 li {
   padding: 0.5rem;
 }
