@@ -10,6 +10,7 @@ const ROUTES = [
   {
     routeTarget: "/showroom",
     routeName: "Showroom",
+    routeIcon: "md-code-working-icon",
   },
   {
     routeTarget: "/cv",

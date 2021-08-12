@@ -31,6 +31,12 @@ export default {
 </script>
 
 <style lang="scss">
+ul svg:hover {
+  fill: red;
+}
+.router-link-active * {
+  fill: var(--primary-color);
+}
 svg {
   fill: var(--dark-grey);
 }
