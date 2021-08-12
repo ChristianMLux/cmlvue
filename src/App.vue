@@ -1,6 +1,7 @@
 <template>
   <MainHeader :title="title" :name="name" />
   <MainNav />
+  <i class="fi-rr-portrait"></i>
   <router-view />
 </template>
 
@@ -30,6 +31,12 @@ export default {
 </script>
 
 <style lang="scss">
+svg {
+  fill: var(--dark-grey);
+}
+i {
+  font-size: 5rem;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -52,6 +59,7 @@ body {
 html {
   max-width: 100ch;
   margin: 0 auto;
+  color: var(--dark);
 }
 h2 {
   font-size: 1.2em;
@@ -82,6 +90,12 @@ h3 {
 @media screen and (max-width: 399px) {
   #app {
     font-size: 14px;
+  }
+  .content-section {
+    margin: 0;
+  }
+  .main-navigation {
+    margin: 0;
   }
 }
 </style>

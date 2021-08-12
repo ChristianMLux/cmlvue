@@ -39,4 +39,9 @@ export default {
 h1 b {
   color: var(--primary-color);
 }
+@media screen and (max-width: 399px) {
+  .header-wrapper {
+    margin: 0 0.5rem;
+  }
+}
 </style>

@@ -42,4 +42,9 @@ ul {
   justify-content: space-between;
   list-style: none;
 }
+@media screen and (max-width: 399px) {
+  .main-navigation {
+    margin: 0;
+  }
+}
 </style>
