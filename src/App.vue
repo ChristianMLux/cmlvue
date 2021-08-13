@@ -89,9 +89,26 @@ h3 {
   color: var(--dark);
 }
 
-.router-link-active {
-  color: red;
+.vueperslide > * {
+  align-items: unset !important;
+  justify-content: unset !important;
 }
+.vueperslide {
+  font-size: 0.8em;
+  .vueperslide__title,
+  .vueperslide__content {
+    font-size: 1.2rem;
+    color: snow;
+    opacity: 0.9;
+    text-align: left;
+    padding-left: 0.5rem;
+    font-weight: bold;
+  }
+  .vueperslide__content {
+    font-size: 0.9em;
+  }
+}
+
 @media screen and (max-width: 568px) {
   #app {
     font-size: 17px;

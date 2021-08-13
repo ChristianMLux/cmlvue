@@ -41,10 +41,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h3 {
-  text-align: left;
-}
 .entry-heading p {
+  font-size: 0.8em;
+}
+h3 {
+  padding-left: 0.5rem;
   font-size: 0.8em;
 }
 li > div {
