@@ -19,18 +19,16 @@ export default {
 
 <style>
 section {
-  margin: 1rem;
   padding: 0.5rem;
+  margin-right: 1rem;
 }
 section > p {
-  margin: 1rem;
   padding-left: 1rem;
   text-align: justify;
   line-height: 1.8;
 }
 section > h2 {
   text-align: left;
-  margin-left: 1rem;
   padding-left: 0.5rem;
   border-left: 4px dotted var(--primary-color);
 }

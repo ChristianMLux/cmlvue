@@ -41,7 +41,7 @@ ul a:hover {
   }
 }
 * .router-link-active * {
-  fill: var(--primary-color);
+  fill: var(--primary-light);
 }
 svg {
   fill: var(--dark-grey);
@@ -92,13 +92,23 @@ h3 {
 .router-link-active {
   color: red;
 }
-
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 568px) {
+  #app {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 500px) {
   #app {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 399px) {
+
+@media screen and (max-width: 479px) {
+  #app {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 454px) {
   #app {
     font-size: 14px;
   }
@@ -107,6 +117,11 @@ h3 {
   }
   .main-navigation {
     margin: 0;
+  }
+}
+@media screen and (max-width: 424px) {
+  li a {
+    font-size: 12px;
   }
 }
 </style>
