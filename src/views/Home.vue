@@ -37,7 +37,7 @@
       <div class="p-wrapper">
         <md-mail-open-icon />
         <p>
-          If I have aroused your interest with this portfolio, you can find all
+          If I have caught your interest with this portfolio, you can find all
           the <b>necessary contact information</b> under the Contact tab. Thank
           you for your interest and have a wonderful day!
         </p>
@@ -62,7 +62,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.p-wrapper:hover {
+  svg {
+    fill: var(--primary-color);
+  }
+}
 .p-wrapper {
   margin: 3rem 1.5rem;
   padding-left: 0.5rem;
@@ -73,11 +78,12 @@ export default {
 .p-wrapper > div {
   font-size: 2.2rem;
   margin: auto 0;
-  width: 20%;
+  width: 15%;
+  padding-right: 2rem;
 }
 
 .p-wrapper > p {
   text-align: justify;
-  width: 80%;
+  width: 85%;
 }
 </style>

@@ -35,11 +35,17 @@ ul a:hover {
     fill: var(--primary-color);
   }
 }
+.p-wrapper:hover {
+  svg {
+    fill: var(--primary-color);
+  }
+}
 * .router-link-active * {
   fill: var(--primary-color);
 }
 svg {
   fill: var(--dark-grey);
+  transition: 0.25s ease-in-out;
 }
 * {
   box-sizing: border-box;
