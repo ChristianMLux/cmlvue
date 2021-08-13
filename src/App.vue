@@ -78,6 +78,7 @@ h3 {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
   text-align: center;
   color: var(--dark);
 }
