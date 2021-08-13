@@ -12,7 +12,7 @@
         contact with Adobe Fireworks to create my first signature.
       </p>
       <section class="img-slider">
-        <vueper-slides>
+        <vueper-slides fixed-height="15rem">
           <vueper-slide
             v-for="(slide, i) in slides"
             :key="i"
@@ -44,8 +44,8 @@ export default {
       contentHeading: "Showroom",
       slides: [
         {
-          title: "Slide #1",
-          content: "Slide content.",
+          title: "WoW Private Server",
+          content: "Layout, Code and CMS implemented",
           image: "/assets/img/slides/slide01.jpg",
         },
         {
@@ -85,7 +85,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .img-wrapper {
   display: flex;
   justify-content: center;
@@ -95,8 +95,8 @@ img {
   margin: 1rem 1rem 0 2rem;
   padding: 1rem 1rem 0.5rem 1.5rem;
 }
-
 .img-slider {
-  margin: 1.25rem 0 0 1.4rem;
+  margin: 0 auto;
+  margin-left: 0.5rem;
 }
 </style>
