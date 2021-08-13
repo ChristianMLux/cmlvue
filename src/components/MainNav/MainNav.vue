@@ -32,11 +32,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 ul {
-  margin: 1rem 0;
-  padding: 1rem;
-  margin-left: 1rem;
+  margin: 0 1rem 0 0;
+  padding: 1rem 0;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -45,6 +44,9 @@ ul {
 @media screen and (max-width: 399px) {
   .main-navigation {
     margin: 0;
+    a {
+      font-size: 0.7em;
+    }
   }
 }
 </style>

@@ -29,9 +29,8 @@ export default {
 
 <style scoped>
 .header-wrapper {
-  margin: 0.5rem;
-  margin-left: 1.5rem;
-  padding: 1rem;
+  margin-right: 1rem;
+  padding: 1rem 0.5rem;
   display: flex;
   flex-flow: row;
   justify-content: space-between;

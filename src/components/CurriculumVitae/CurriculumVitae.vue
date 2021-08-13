@@ -24,7 +24,7 @@ export default {
 ul {
   list-style: none;
   padding: 0;
-  padding-left: 1rem;
+  margin-right: 0.5rem;
 }
 ul > li {
   display: flex;
