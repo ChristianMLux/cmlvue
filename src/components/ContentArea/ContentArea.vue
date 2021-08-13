@@ -26,6 +26,7 @@ section > p {
   margin: 1rem;
   padding-left: 1rem;
   text-align: justify;
+  line-height: 1.8;
 }
 section > h2 {
   text-align: left;

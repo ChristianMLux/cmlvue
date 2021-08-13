@@ -1,7 +1,6 @@
 <template>
   <MainHeader :title="title" :name="name" />
   <MainNav />
-  <i class="fi-rr-portrait"></i>
   <router-view />
 </template>
 
@@ -31,11 +30,16 @@ export default {
 </script>
 
 <style lang="scss">
+ul a:hover {
+  svg {
+    fill: var(--primary-color);
+  }
+}
+* .router-link-active * {
+  fill: var(--primary-color);
+}
 svg {
   fill: var(--dark-grey);
-}
-i {
-  font-size: 5rem;
 }
 * {
   box-sizing: border-box;
@@ -74,6 +78,7 @@ h3 {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
   text-align: center;
   color: var(--dark);
 }

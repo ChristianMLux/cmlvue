@@ -2,7 +2,7 @@
   <div class="home">
     <content-area :contentHeading="contentHeading">
       <div class="p-wrapper">
-        <md-clipboard-icon />
+        <md-home-icon />
         <p>
           I am <b>looking for permanent employment</b>. This page is intended to
           give you as broad an insight as possible into my previous work, so
@@ -11,12 +11,12 @@
         </p>
       </div>
       <div class="p-wrapper">
+        <md-person-icon />
         <p>
           You can find out more about me and my person in the profiles section.
           A
           <b>detailed description of my career</b> to date is written down here.
         </p>
-        <md-person-icon />
       </div>
       <div class="p-wrapper">
         <md-code-working-icon />
@@ -28,11 +28,11 @@
         </p>
       </div>
       <div class="p-wrapper">
+        <md-document-icon />
         <p>
           You can find my <b>detailed curriculum vitae</b> under the link "CV".
           If required, the CV can also be printed out.
         </p>
-        <md-document-icon />
       </div>
       <div class="p-wrapper">
         <md-mail-open-icon />
@@ -64,14 +64,14 @@ export default {
 
 <style scoped>
 .p-wrapper {
-  margin: 2rem 1.5rem;
+  margin: 3rem 1.5rem;
   padding-left: 0.5rem;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
 }
 .p-wrapper > div {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin: auto 0;
   width: 20%;
 }

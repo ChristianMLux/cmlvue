@@ -1,6 +1,7 @@
 <template>
   <li>
     <router-link :to="routeTarget">
+      <component :is="routeIcon"></component>
       {{ routeName }}
     </router-link>
   </li>
@@ -18,6 +19,9 @@ export default {
       type: String,
       required: true,
     },
+    routeIcon: {
+      type: String,
+    },
   },
 };
 </script>
@@ -32,13 +36,14 @@ li {
 ul > li > a {
   color: var(--dark);
   text-decoration: none;
-  padding-left: 0.33rem;
-  border-left: 0.5px dotted var(--dark);
 }
 a {
   font-weight: bold;
+  display: flex;
 }
-* .router-link-exact-active {
-  border-left: 3px dotted var(--primary-color);
+
+a > div {
+  margin-right: 0.5rem;
+  font-size: 1.1em;
 }
 </style>
