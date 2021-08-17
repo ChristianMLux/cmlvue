@@ -3,7 +3,7 @@
     <content-area :contentHeading="eduHeading">
       <CurriculumVitae :entries="eduEntries" />
     </content-area>
-    <content-area :contentHeading="expHeading">
+    <content-area :contentHeading="expHeading"   >
       <CurriculumVitae :entries="expEntries" />
     </content-area>
   </div>
